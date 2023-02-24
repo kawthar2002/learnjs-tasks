@@ -1,0 +1,1 @@
+alert( fruits.length ); // 4
