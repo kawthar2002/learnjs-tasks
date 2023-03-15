@@ -1,0 +1,58 @@
+.arrow {
+  padding: 4px;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+  position: absolute;
+  top: 50%;
+}
+.arrow:focus {
+  outline: none;
+}
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+.arrow-left {
+  left: 10px;
+}
+.arrow-right {
+  right: 10px;
+}
+ul {
+  height: 130px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  transition: margin-left 0.8s ease;
+}
+
+ul img {
+  width: 130px;
+  height: 130px;
+  display: block;
+}
+
+ul li {
+  display: inline-block;
+}
+.box {
+  width: calc(130px * 3);
+  overflow: hidden;
+}
+.content {
+  padding: 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: #eee;
+  position: relative;
+  display: block;
+  width: max-content;
+  margin: 200px auto 0;
+}
